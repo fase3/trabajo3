@@ -1,0 +1,118 @@
+nav,  footer, .principal, aside,img,h1,h2 {
+    max-width: 98%;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.3em;
+}
+header{
+    height:150px;
+    
+}
+h1 {
+    display: inline-block;
+    width: 3%;
+    vertical-align: top;
+    margin-left: auto;
+}
+
+img {
+    display: inline-block;
+    width: 13%;
+    vertical-align: top;
+
+   
+}
+h2 {
+    line-height: 500%;
+    display: inline-block;
+    width: 40%;
+    vertical-align: central;
+}
+
+
+nav {
+    background-color: rgb(0,88, 131);
+    text-align: left;
+    font-weight: 900;
+    
+    border-width:10px;
+    border-color: rgb(240,180,41);
+}
+
+.contenedor{
+    background-color:white;
+    text-align: center;
+   
+}
+
+article {
+    background-color:white;
+    text-align: justify;
+   
+}
+footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#11225B;
+    color: white;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+}
+
+
+.principal {
+    background-color: white;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+aside {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 38%;  
+}
+/* Menu */
+.menu li {
+    display: inline-block;
+}
+
+li a, btnDesplegable {
+    display: inline-block;
+    color: beige;
+    padding: 0.9em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contenidoDesplegable {
+    display: none;
+    position: absolute;
+    background-color: cornsilk;
+    min-width: 8em;
+}
+
+    .contenidoDesplegable a {
+        color: black;
+        padding: 0.9em 1em;
+        display: block;
+        text-align: left;
+    }
+
+        .contenidoDesplegable a:hover {
+            background-color: rgb(240,180,41);
+        }
+
+.desplegable:hover .contenidoDesplegable {
+    display: block;
+}
+
+li a:hover {
+    background-color:rgb(51,51,51);
+}
+
